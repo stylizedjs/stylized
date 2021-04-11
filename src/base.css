@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap");
 
 @import 'components.css';
 @import 'rules.css';
@@ -38,6 +38,11 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
 }
 
 body,
@@ -109,15 +114,15 @@ pre {
   border-radius: 6px;
 }
 
-input:checked + .slider {
+input[type='checkbox']:checked + .slider {
   background-color: var(--primary-color);
 }
 
-input:focus + .slider {
+input[type='checkbox']:focus + .slider {
   box-shadow: 0 0 1px var(--primary-color);
 }
 
-input:checked + .slider:before {
+input[type='checkbox']:checked + .slider:before {
   -webkit-transform: translateX(20px);
   -ms-transform: translateX(20px);
   transform: translateX(20px);

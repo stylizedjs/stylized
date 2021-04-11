@@ -19,6 +19,11 @@ button:active {
   background-color: var(--primary-active-color);
 }
 
+input[type='text'] {
+  border: 1.3px solid #E0E0E0;
+  border-radius: 6px;
+}
+
 .btn-basic {
   background-color: transparent;
   color: var(--primary-color);
@@ -110,6 +115,7 @@ button:active {
 .navbar {
   display: flex;
   flex-direction: row;
+  padding: 15px 0;
 }
 
 .navbar li {
