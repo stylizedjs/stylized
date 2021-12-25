@@ -9,7 +9,6 @@
 <p align="center">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gabrielcmarinho/stylized?color=005be4&style=flat-square">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/gabrielcmarinho/stylized?color=005be4&label=size&style=flat-square">
-  <img alt="Discord" src="https://img.shields.io/discord/804190466001469440?label=discord&color=005be4&style=flat-square">
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/gabrielcmarinho/stylized?color=005be4&style=flat-square">
   <img alt="GitHub" src="https://img.shields.io/github/license/gabrielcmarinho/stylized?color=005be4">
 </p>
@@ -62,7 +61,7 @@ or (makes it necessary to move files from **src** folder)
 ```bash
 git clone https://github.com/gabrielcmarinho/stylized.git
 ```
-or using from CDN (easiest way) (inside head tags)
+or using from CDN (easiest way)
 ```html
 <link rel="stylesheet" href="https://unpkg.com/stylizedcss/src/stylized.css">
 ```
