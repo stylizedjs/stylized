@@ -6,6 +6,12 @@ header {
     border-bottom: 1px solid var(--soft-peach-color);
 }
 
+main {
+    padding: 0 10vw;
+}
+
+/* Home page */
+
 .main-title {
     max-width: 30vw;
     padding-bottom: 9px;
@@ -14,4 +20,26 @@ header {
 .overview-description {
     color: var(--medium-gray-color);
     max-width: 18vw;
+}
+
+/* Docs page */
+
+.lateral-menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: left;
+}
+
+.lateral-menu .section-menu {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.item-menu {
+    margin-bottom: 15px;
+}
+
+.card {
+    text-align: left;
 }
