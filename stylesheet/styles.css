@@ -10,7 +10,7 @@ main {
     padding: 0 10vw;
 }
 
-#logo {
+.logo {
     margin-top: 1vh;
     cursor: pointer;
     margin-left: 20px;
