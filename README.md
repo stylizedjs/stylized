@@ -56,7 +56,7 @@
 
 ## 📦 Installation
 ```bash
-npm install --save stylizedcss
+npm install stylizedcss
 ```
 or (makes it necessary to move files from **src** folder)
 ```bash
