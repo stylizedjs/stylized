@@ -1,0 +1,44 @@
+@media screen and (max-width: 1250px) {
+    main {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        padding: 0 0;
+    }
+
+    .main-title {
+        max-width: 500px;
+    }
+    
+    .overview-description {
+        max-width: 340px;
+    }
+
+    main .buttons-area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .buttons-area button.get-started-c2a {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    main .buttons-area {
+        width: 90vw;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 375px) and (max-height: 700px) {
+    .main-title {
+        font-size: 40px;
+    }
+}
