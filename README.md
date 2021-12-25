@@ -62,10 +62,14 @@ or (makes it necessary to move files from **src** folder)
 ```bash
 git clone https://github.com/gabrielcmarinho/stylized.git
 ```
+or using from CDN (easiest way) (inside head tags)
+```html
+<link rel="stylesheet" href="https://unpkg.com/stylizedcss/src/stylized.css">
+```
 
 ## 🔨 Usage
 ```js
-import 'stylized.css';
+import 'stylizedcss';
 ```
 When cloned and manually moving files from the **src** folder to your project's **src** folder, just import:
 ```html
