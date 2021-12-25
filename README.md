@@ -1,16 +1,18 @@
 <div align="center">
   <img
-    width="400"
+    width="150"
     src=".github/media/logo.svg"
     alt="Stylized CSS framwork"
   />
 </div>
 
 <p align="center">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gabrielcmarinho/stylized?color=005be4&style=flat-square">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/gabrielcmarinho/stylized?color=005be4&label=size&style=flat-square">
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/gabrielcmarinho/stylized?color=005be4&style=flat-square">
-  <img alt="GitHub" src="https://img.shields.io/github/license/gabrielcmarinho/stylized?color=005be4">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gabrielcmarinho/stylized?color=992dd9&style=flat-square">
+  <img alt="Donate using NANO" src="https://img.shields.io/badge/sponsor-nano-%234060e0?style=flat-square">
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/gabrielcmarinho/stylized?color=63ad60&style=flat-square">
+  <img alt="GitHub" src="https://img.shields.io/github/license/gabrielcmarinho/stylized?color=ffc95c&style=flat-square">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/gabrielcmarinho/stylized?color=fb942f&label=size&style=flat-square">
+  <img alt="GitHub main language repository" src="https://img.shields.io/github/languages/top/gabrielcmarinho/stylized?color=f03616&style=flat-square">
 </p>
 
 <p align="center">
@@ -108,4 +110,4 @@ When cloned and manually moving files from the **src** folder to your project's 
 This project is licensed under the 
 [MIT license](./LICENSE)
 
-✨ Designed by Gabriel Marinho. [Follow me on Twitter!](https://twitter.com/gabrielcmarinho)
+✨ Designed by Gabriel Marinho. [Follow me on GitHub!](https://github.com/gabrielcmarinho)
