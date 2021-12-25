@@ -1,5 +1,5 @@
 {
-  "name": "stylized",
+  "name": "stylizedcss",
   "version": "1.0.0",
   "description": "The ultimate solution to powerful designs",
   "main": "src/stylized.css",
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/gabrielcmarinho/stylized/issues"
   },
-  "homepage": "https://github.com/gabrielcmarinho/stylized#readme"
+  "homepage": "https://github.com/gabrielcmarinho/stylized#readme",
+  "directories": {
+    "doc": "docs"
+  }
 }
