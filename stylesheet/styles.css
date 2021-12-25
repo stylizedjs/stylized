@@ -10,6 +10,12 @@ main {
     padding: 0 10vw;
 }
 
+.logo {
+    margin-top: 1vh;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
 /* Home page */
 
 .main-title {
