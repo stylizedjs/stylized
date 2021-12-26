@@ -31,10 +31,12 @@ main {
 /* Docs page */
 
 .lateral-menu {
+    position: fixed;
     display: flex;
     flex-direction: column;
     list-style: none;
     text-align: left;
+    margin-top: 8vh;
 }
 
 .lateral-menu .section-menu {
@@ -44,6 +46,73 @@ main {
 
 .item-menu {
     margin-bottom: 15px;
+}
+
+.main-docs {
+    margin-top: 8vh;
+    margin-bottom: 50px;
+    margin-left: 15vw;
+    padding-right: 14vw;
+    text-align: left;
+}
+
+.main-docs p:not(.card p) {
+    color: var(--topaz-color);
+}
+
+p b {
+    color: var(--black-color);
+}
+
+.informations-about-stylized div {
+    margin: 3vh 0;
+}
+
+.data-info {
+    font-size: 30px;
+}
+
+.param-info {
+    text-transform: uppercase;
+}
+
+.date-advisor {
+    text-align: right;
+    font-size: 10px;
+}
+
+.main-docs h1, 
+.main-docs h2, 
+.main-docs h3,
+.main-docs h4,
+.main-docs h5,
+.main-docs h6 {
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.main-docs #installation h4 {
+    margin-top: 2vh;
+}
+
+.main-docs #installation .copy pre {
+    width: 100%;
+}
+
+.main-docs .instruction {
+    margin-top: 2vh;
+}
+
+.copy pre {
+    margin-right: 5px;
+}
+
+.copy-to-clipboard-button {
+    height: 48px;
+}
+
+.main-docs a {
+    color: var(--primary-color);
 }
 
 .card {
