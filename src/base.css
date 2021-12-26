@@ -98,6 +98,10 @@ h6 {
   font-size: 15px;
 }
 
+p {
+  line-height: 26.15px;
+}
+
 ol,
 ul {
   list-style: none;
