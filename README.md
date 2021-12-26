@@ -40,7 +40,6 @@
   /></a>
   &nbsp;
 </p>
----
 
 ## ✨ Features
 - ▶️ Easy start — just download, import and start using
@@ -87,13 +86,41 @@ When cloned and manually moving files from the **src** folder to your project's 
 </details>
 <details>
   <summary> How Stylized behaves in old browsers?</summary>
-  
-  ---
+  <table>
+    <tr>
+      <th>
+        <img src="./.github/media/browsers/chrome.svg" alt="Chrome logo">
+      </th>
+      <th>
+        <img src="./.github/media/browsers/edge.svg" alt="Edge logo">
+      </th>
+      <th>
+        <img src="./.github/media/browsers/firefox.svg" alt="Firefox logo">      
+      </th>
+      <th>
+        <img src="./.github/media/browsers/safari.svg" alt="Safari logo">
+      </th>
+      <th>
+        <img src="./.github/media/browsers/opera.svg" alt="Opera logo">      
+      </th>
+      <th>
+        <img src="./.github/media/browsers/ie.svg" alt="Internet Explorer logo">      
+      </th>
+    </tr>
+    <tr>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>NFW</td>
+    </tr>
+  </table>
 </details>
 <details>
   <summary> I don't know how to code in CSS. Is there any other way to contribute?</summary>
   
-  Yes! There is a lot of ways to contribute with Stylized. You can **star** the repository, share with friends, <a href="https://discord.gg/MnEZUbAWx9">boost our server on Discord</a> or help with translations in the documentation.
+  Yes! There is a lot of ways to contribute with Stylized. You can **star** the repository, share with friends, <a href="https://mynano.link/nano_1juij9z3o3cj55aokgj9u8geb6u4nzwjo97pyutwsspx3obtuoyt4osp9mye">boost our project donating with Nano</a> or help with translations in the documentation.
 </details>
 <details>
   <summary> Can I use it in a project of my company?</summary>
