@@ -1,6 +1,6 @@
 {
   "name": "stylizedcss",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "The ultimate solution to powerful designs",
   "main": "src/stylized.css",
   "style": "src/stylized.css",
