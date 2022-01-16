@@ -20,7 +20,7 @@
   ·
   <a href="#🚀-installation">Installation</a>
   ·
-  <a href="https://github.com/gabrielcmarinho/stylized/graphs/contributors">Stylizers</a>
+  <a href="https://github.com/gdcmarinho/stylized/graphs/contributors">Stylizers</a>
 </p>
 
 <p align="center">
@@ -125,16 +125,16 @@ When cloned and manually moving files from the **src** folder to your project's 
 <details>
   <summary> Can I use it in a project of my company?</summary>
   
-  Yes, you can. However, there is no responsibility or warranty on the part of the collaborators of the project or the creator (<a href="https://github.com/gabrielcmarinho">@gabrielcmarinho</a>). If you need more informations about it, [read the license](./LICENSE).
+  Yes, you can. However, there is no responsibility or warranty on the part of the collaborators of the project or the creator (<a href="https://github.com/gdcmarinho">@gabrielcmarinho</a>). If you need more informations about it, [read the license](./LICENSE).
 </details>
 <details>
   <summary> How to request the creation of a new component?</summary>
   
-  It's possible to open an issue using the label <a href="https://github.com/gabrielcmarinho/stylized/labels/enhancement">enhancement</a>. Enter as much information as possible and, if possible, give examples.
+  It's possible to open an issue using the label <a href="https://github.com/gdcmarinho/stylized/labels/enhancement">enhancement</a>. Enter as much information as possible and, if possible, give examples.
 </details>
 
 ## 📝 License
 This project is licensed under the 
 [MIT license](./LICENSE)
 
-✨ Designed by Gabriel Marinho. [Follow me on GitHub!](https://github.com/gabrielcmarinho)
+✨ Designed by Gabriel Marinho. [Follow me on GitHub!](https://github.com/gdcmarinho)
