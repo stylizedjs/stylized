@@ -7,12 +7,12 @@
 </div>
 
 <p align="center">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gabrielcmarinho/stylized?color=992dd9&style=flat-square">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gdcmarinho/stylized?color=992dd9&style=flat-square">
   <img alt="Donate using NANO" src="https://img.shields.io/badge/sponsor-nano-%234060e0?style=flat-square">
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/gabrielcmarinho/stylized?color=63ad60&style=flat-square">
-  <img alt="GitHub" src="https://img.shields.io/github/license/gabrielcmarinho/stylized?color=ffc95c&style=flat-square">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/gabrielcmarinho/stylized?color=fb942f&label=size&style=flat-square">
-  <img alt="GitHub main language repository" src="https://img.shields.io/github/languages/top/gabrielcmarinho/stylized?color=f03616&style=flat-square">
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/gdcmarinho/stylized?color=63ad60&style=flat-square">
+  <img alt="GitHub" src="https://img.shields.io/github/license/gdcmarinho/stylized?color=ffc95c&style=flat-square">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/gdcmarinho/stylized?color=fb942f&label=size&style=flat-square">
+  <img alt="GitHub main language repository" src="https://img.shields.io/github/languages/top/gdcmarinho/stylized?color=f03616&style=flat-square">
 </p>
 
 <p align="center">
@@ -60,7 +60,7 @@ npm install stylizedcss
 ```
 or (makes it necessary to move files from **src** folder)
 ```bash
-git clone https://github.com/gabrielcmarinho/stylized.git
+git clone https://github.com/gdcmarinho/stylized.git
 ```
 or using from CDN (easiest way)
 ```html
@@ -125,7 +125,7 @@ When cloned and manually moving files from the **src** folder to your project's 
 <details>
   <summary> Can I use it in a project of my company?</summary>
   
-  Yes, you can. However, there is no responsibility or warranty on the part of the collaborators of the project or the creator (<a href="https://github.com/gdcmarinho">@gabrielcmarinho</a>). If you need more informations about it, [read the license](./LICENSE).
+  Yes, you can. However, there is no responsibility or warranty on the part of the collaborators of the project or the creator (<a href="https://github.com/gdcmarinho">@gdcmarinho</a>). If you need more informations about it, [read the license](./LICENSE).
 </details>
 <details>
   <summary> How to request the creation of a new component?</summary>
