@@ -1,6 +1,7 @@
 import { css, html, LitElement } from "lit";
 import { customElement } from 'lit/decorators.js';
-import { globalStyles } from "../globalStyles";
+
+import { globalStyles } from "@components/globalStyles";
 
 @customElement("button")
 export class Button extends LitElement {

@@ -22,5 +22,8 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@components/*": ["./src/components/*"],
+    }
   }
 }
