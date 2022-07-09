@@ -2,14 +2,13 @@
   "name": "stylizedcss",
   "version": "1.1.0",
   "description": "The ultimate solution to powerful designs",
-  "main": "src/stylized.css",
-  "style": "src/stylized.css",
+  "main": "./src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabrielcmarinho/stylized.git"
+    "url": "git+https://github.com/stylizedcss/stylized.git"
   },
   "keywords": [
     "css",
@@ -19,15 +18,22 @@
     "responsive",
     "front-end",
     "ui",
-    "web"
+    "web",
+    "interoperable"
   ],
   "author": "Gabriel Marinho",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gabrielcmarinho/stylized/issues"
+    "url": "https://github.com/stylizedcss/stylized/issues"
   },
   "homepage": "https://stylized.dev",
   "directories": {
     "doc": "docs"
+  },
+  "dependencies": {
+    "lit": "^2.2.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }

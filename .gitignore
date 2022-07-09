@@ -22,7 +22,7 @@ pids
 *.sublime-project
 *.sublime-workspace
 Thumbs.db
-/.vscode/
+/.vscode/settings.json
 
 lib-cov
 

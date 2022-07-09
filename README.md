@@ -60,7 +60,7 @@ npm install stylizedcss
 ```
 or (makes it necessary to move files from **src** folder)
 ```bash
-git clone https://github.com/gdcmarinho/stylized.git
+git clone https://github.com/stylizedcss/stylized.git
 ```
 or using from CDN (easiest way)
 ```html
@@ -130,7 +130,7 @@ When cloned and manually moving files from the **src** folder to your project's 
 <details>
   <summary> How to request the creation of a new component?</summary>
   
-  It's possible to open an issue using the label <a href="https://github.com/gdcmarinho/stylized/labels/enhancement">enhancement</a>. Enter as much information as possible and, if possible, give examples.
+  It's possible to open an issue using the label <a href="https://github.com/stylizedcss/stylized/labels/enhancement">enhancement</a>. Enter as much information as possible and, if possible, give examples.
 </details>
 
 ## 📝 License
