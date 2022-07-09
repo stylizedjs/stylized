@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabrielcmarinho/stylized.git"
+    "url": "git+https://github.com/stylizedcss/stylized.git"
   },
   "keywords": [
     "css",
@@ -19,12 +19,13 @@
     "responsive",
     "front-end",
     "ui",
-    "web"
+    "web",
+    "interoperable"
   ],
   "author": "Gabriel Marinho",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gabrielcmarinho/stylized/issues"
+    "url": "https://github.com/stylizedcss/stylized/issues"
   },
   "homepage": "https://stylized.dev",
   "directories": {
