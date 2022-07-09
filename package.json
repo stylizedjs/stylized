@@ -32,5 +32,8 @@
   },
   "dependencies": {
     "lit": "^2.2.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }
