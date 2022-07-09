@@ -29,5 +29,8 @@
   "homepage": "https://stylized.dev",
   "directories": {
     "doc": "docs"
+  },
+  "dependencies": {
+    "lit": "^2.2.7"
   }
 }
