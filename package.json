@@ -1,6 +1,6 @@
 {
   "name": "stylizedcss",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "The ultimate solution to powerful designs",
   "main": "./src/index.ts",
   "scripts": {
@@ -19,7 +19,8 @@
     "front-end",
     "ui",
     "web",
-    "interoperable"
+    "interoperable",
+    "stlzd"
   ],
   "author": "Gabriel Marinho",
   "license": "MIT",

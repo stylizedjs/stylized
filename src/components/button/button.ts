@@ -3,8 +3,8 @@ import { customElement } from 'lit/decorators.js';
 
 import { globalStyles } from "@components/globalStyles";
 
-@customElement("button")
-export class Button extends LitElement {
+@customElement("stlzd-button")
+export class StlzdButton extends LitElement {
     static styles = [
         globalStyles,
         css`
@@ -33,5 +33,11 @@ export class Button extends LitElement {
 
     render() {
         return html`<button></button>`;
+    }
+}
+
+declare global {
+    interface HTMLElementTagNameMap {
+        "stlzd-button": StlzdButton;
     }
 }

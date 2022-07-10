@@ -3,8 +3,8 @@ import { customElement, property } from "lit/decorators";
 
 import { globalStyles } from "@components/globalStyles";
 
-@customElement('line-copy')
-export class LineCopy extends LitElement {
+@customElement('stlzd-line-copy')
+export class StlzdLineCopy extends LitElement {
     static styles = [
         globalStyles,
         css``
@@ -21,5 +21,11 @@ export class LineCopy extends LitElement {
                     Copy
                 </button>
             </div>`;
+    }
+}
+
+declare global {
+    interface HTMLElementTagNameMap {
+        "stlzd-line-copy": StlzdLineCopy;
     }
 }
