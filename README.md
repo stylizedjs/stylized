@@ -58,31 +58,17 @@
 ```bash
 npm install stylizedcss
 ```
-or (makes it necessary to move files from **src** folder)
-```bash
-git clone https://github.com/stylizedcss/stylized.git
-```
-or using from CDN (easiest way)
-```html
-<link rel="stylesheet" href="https://unpkg.com/stylizedcss/src/stylized.css">
-```
 
 ## 🔨 Usage
-```js
-import 'stylizedcss';
-```
-When cloned and manually moving files from the **src** folder to your project's **src** folder, just import:
-```html
-<link rel="stylesheet" href="src/stylized.css"/>
-```
+
 ## 🤝 Contributing
 
 
 ## ❔ FAQ
 <details>
-  <summary> Why another CSS framework?</summary>
+  <summary> Why another UI library?</summary>
   
-  Stylized was created with the objective of offering a lightweight, beautiful and simple to use (mainly to beginners in front-end)
+  Stylized was created with the objective of offering a lightweight, beautiful and simple to use UI library.
 </details>
 <details>
   <summary> How Stylized behaves in old browsers?</summary>
