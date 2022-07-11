@@ -3,42 +3,6 @@ input[type='text'] {
   border-radius: 6px;
 }
 
-.alert {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: var(--alert-standard-bg-color);
-  color: var(--primary-color);
-  border: 1px solid var(--alert-border-bg-color);
-  border-radius: 6px;
-}
-
-.alert-success {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: var(--alert-success-bg-color);
-  color: var(--alert-success-text);
-  border: 1px solid var(--alert-success-border-color);
-  border-radius: 6px;
-}
-
-.alert-danger {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: var(--alert-danger-bg-color);
-  color: var(--alert-danger-text);
-  border: 1px solid var(--alert-danger-border-color);
-  border-radius: 6px;
-}
-
-.alert-warning {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: var(--alert-warning-bg-color);
-  color: var(--alert-warning-text-color);
-  border: 1px solid var(--alert-warning-border-color);
-  border-radius: 6px;
-}
-
 .switch {
   position: relative;
   display: inline-block;

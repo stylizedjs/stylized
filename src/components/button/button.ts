@@ -34,23 +34,23 @@ export class StlzdButton extends LitElement {
                 background-color: var(--primary-active-color);
             }
 
-            :host([variant="basic"]) {
+            :host([type="basic"]) {
                 background-color: transparent;
                 color: var(--primary-color);
             }
 
-            :host([variant="basic"]:hover) {
+            :host([type="basic"]:hover) {
                 background-color: var(--lavender-blue-transparent-color);
             }
 
-            :host([variant="basic"]:active) {
+            :host([type="basic"]:active) {
                 background-color: var(--lavender-blue-transparent-color);
             }
         `
     ];
 
     @property()
-    type: ButtonVariants = ButtonVariants.PRIMARY;
+    type?: ButtonVariants = ButtonVariants.PRIMARY;
 
     render() {
         return html`<button></button>`;
