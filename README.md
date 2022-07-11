@@ -115,7 +115,7 @@ Yes! There are a lot of ways to contribute with Stylized. You can **star** the r
 <details>
   <summary> Can I use it in a project of my company?</summary>
 
-Yes, you can. However, there is no responsibility or warranty on the part of the collaborators of the project or the creator (<a href="https://github.com/gdcmarinho">@gdcmarinho</a>). If you need more informations about it, [read the license](./LICENSE).
+Yes, you can. However, there is no responsibility or warranty on the part of the collaborators of the project or the creator (<a href="https://github.com/gdcmarinho">@gdcmarinho</a>). If you need more information about it, [read the license](./LICENSE).
 
 </details>
 <details>
