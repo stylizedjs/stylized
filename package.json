@@ -2,8 +2,15 @@
   "name": "stylizedcss",
   "version": "1.0.0",
   "description": "The ultimate solution to powerful designs",
-  "main": "./src/index.ts",
+  "main": "stylized.js",
+  "module": "stylized.js",
+  "type": "module",
   "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "lint": "eslint \"**/*.{js,ts}\"",
+    "serve": "wds --watch",
+    "serve:prod": "MODE=prod npm run serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -35,6 +42,12 @@
     "lit": "^2.2.7"
   },
   "devDependencies": {
+    "@web/dev-server": "^0.1.32",
+    "@web/dev-server-legacy": "^1.0.0",
+    "@web/test-runner": "^0.13.27",
+    "@web/test-runner-playwright": "^0.8.8",
+    "@webcomponents/webcomponentsjs": "^2.6.0",
+    "eslint": "^8.19.0",
     "typescript": "^4.7.4"
   }
 }

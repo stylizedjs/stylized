@@ -3,19 +3,6 @@ input[type='text'] {
   border-radius: 6px;
 }
 
-.btn-basic {
-  background-color: transparent;
-  color: var(--primary-color);
-}
-
-.btn-basic:hover {
-  background-color: var(--lavender-blue-transparent-color);
-}
-
-.btn-basic:active {
-  background-color: var(--lavender-blue-transparent-color);
-}
-
 .alert {
   display: inline-block;
   padding: 10px 20px;
@@ -106,26 +93,4 @@ input[type='text'] {
 
 .navbar li:hover {
   color: var(--black-color);
-}
-
-.card {
-  padding: 24px 28px;
-  background-color: var(--primary-color);
-  color: var(--white-color);
-  border-radius: 6px;
-  width: 30vw;
-}
-
-.card-description {
-  margin-bottom: 20px;
-}
-
-.card-call-to-action {
-  cursor: pointer;
-  display: inline-block; 
-  transition: all 0.3s linear;
-}
-
-.card-call-to-action:hover {
-  color: var(--gainsboro-color);
 }

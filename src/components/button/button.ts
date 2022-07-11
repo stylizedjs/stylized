@@ -1,9 +1,14 @@
 import { css, html, LitElement } from "lit";
-import { customElement } from 'lit/decorators.js';
+import { customElement, property } from 'lit/decorators.js';
 
 import { globalStyles } from "@components/globalStyles";
 
-@customElement("stlzd-button")
+export enum ButtonVariants {
+    PRIMARY = 'primary',
+    BASIC = 'basic',
+}
+
+@customElement('stlzd-button')
 export class StlzdButton extends LitElement {
     static styles = [
         globalStyles,
@@ -28,8 +33,24 @@ export class StlzdButton extends LitElement {
             :host:active {
                 background-color: var(--primary-active-color);
             }
+
+            :host([variant="basic"]) {
+                background-color: transparent;
+                color: var(--primary-color);
+            }
+
+            :host([variant="basic"]:hover) {
+                background-color: var(--lavender-blue-transparent-color);
+            }
+
+            :host([variant="basic"]:active) {
+                background-color: var(--lavender-blue-transparent-color);
+            }
         `
     ];
+
+    @property()
+    type: ButtonVariants = ButtonVariants.PRIMARY;
 
     render() {
         return html`<button></button>`;
