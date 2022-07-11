@@ -30,7 +30,7 @@
       src=".github/media/flags/br.png"
       alt="Documentação em Português"
   /></a>
-  &nbsp;
+   
   <a
     href="#"
     ><img
@@ -38,10 +38,11 @@
       src=".github/media/flags/es.png"
       alt="Documentación en Español"
   /></a>
-  &nbsp;
+   
 </p>
 
 ## ✨ Features
+
 - ▶️ Easy start — just download, import and start using
 - 🎨 Easy customization and adaptation for your project
 - 🤝 High compatibility with libraries and frameworks
@@ -55,6 +56,7 @@
 - NPM
 
 ## 📦 Installation
+
 ```bash
 npm install stylizedjs
 ```
@@ -63,12 +65,13 @@ npm install stylizedjs
 
 ## 🤝 Contributing
 
-
 ## ❔ FAQ
+
 <details>
   <summary> Why another UI library?</summary>
-  
-  Stylized was created with the objective of offering a lightweight, beautiful and simple to use UI library.
+
+Stylized was created to offer a lightweight, beautiful and simple to use UI library.
+
 </details>
 <details>
   <summary> How Stylized behaves in old browsers?</summary>
@@ -81,16 +84,16 @@ npm install stylizedjs
         <img src="./.github/media/browsers/edge.svg" alt="Edge logo">
       </th>
       <th>
-        <img src="./.github/media/browsers/firefox.svg" alt="Firefox logo">      
+        <img src="./.github/media/browsers/firefox.svg" alt="Firefox logo">    
       </th>
       <th>
         <img src="./.github/media/browsers/safari.svg" alt="Safari logo">
       </th>
       <th>
-        <img src="./.github/media/browsers/opera.svg" alt="Opera logo">      
+        <img src="./.github/media/browsers/opera.svg" alt="Opera logo">    
       </th>
       <th>
-        <img src="./.github/media/browsers/ie.svg" alt="Internet Explorer logo">      
+        <img src="./.github/media/browsers/ie.svg" alt="Internet Explorer logo">    
       </th>
     </tr>
     <tr>
@@ -105,22 +108,26 @@ npm install stylizedjs
 </details>
 <details>
   <summary> I don't know how to code in CSS. Is there any other way to contribute?</summary>
-  
-  Yes! There is a lot of ways to contribute with Stylized. You can **star** the repository, share with friends, <a href="https://mynano.link/nano_1juij9z3o3cj55aokgj9u8geb6u4nzwjo97pyutwsspx3obtuoyt4osp9mye">boost our project donating with Nano</a> or help with translations in the documentation.
+
+Yes! There is a lot of ways to contribute with Stylized. You can **star** the repository, share with friends, <a href="https://mynano.link/nano_1juij9z3o3cj55aokgj9u8geb6u4nzwjo97pyutwsspx3obtuoyt4osp9mye">boost our project donating with Nano</a> or help with translations in the documentation.
+
 </details>
 <details>
   <summary> Can I use it in a project of my company?</summary>
-  
-  Yes, you can. However, there is no responsibility or warranty on the part of the collaborators of the project or the creator (<a href="https://github.com/gdcmarinho">@gdcmarinho</a>). If you need more informations about it, [read the license](./LICENSE).
+
+Yes, you can. However, there is no responsibility or warranty on the part of the collaborators of the project or the creator (<a href="https://github.com/gdcmarinho">@gdcmarinho</a>). If you need more informations about it, [read the license](./LICENSE).
+
 </details>
 <details>
   <summary> How to request the creation of a new component?</summary>
-  
-  It's possible to open an issue using the label <a href="https://github.com/stylizedjs/stylized/labels/enhancement">enhancement</a>. Enter as much information as possible and, if possible, give examples.
+
+It's possible to open an issue using the label <a href="https://github.com/stylizedjs/stylized/labels/enhancement">enhancement</a>. Enter as much information as possible and, if possible, give examples.
+
 </details>
 
 ## 📝 License
-This project is licensed under the 
+
+This project is licensed under the
 [MIT license](./LICENSE)
 
 ✨ Designed by Gabriel Marinho. [Follow me on GitHub!](https://github.com/gdcmarinho)
