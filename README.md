@@ -70,7 +70,7 @@ npm install stylizedjs
 <details>
   <summary> Why another UI library?</summary>
 
-Stylized was created to offer a lightweight, beautiful and simple to use UI library.
+Stylized was created to offer a lightweight, beautiful and simple-to-use UI library.
 
 </details>
 <details>
