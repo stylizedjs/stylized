@@ -109,7 +109,7 @@ Stylized was created to offer a lightweight, beautiful and simple-to-use UI libr
 <details>
   <summary> I don't know how to code in CSS. Is there any other way to contribute?</summary>
 
-Yes! There are a lot of ways to contribute with Stylized. You can **star** the repository, share with friends, <a href="https://mynano.link/nano_1juij9z3o3cj55aokgj9u8geb6u4nzwjo97pyutwsspx3obtuoyt4osp9mye">boost our project donating with Nano</a> or help with translations in the documentation.
+Yes! There are a lot of ways to contribute with Stylized. You can **star** the repository, share it with friends, <a href="https://mynano.link/nano_1juij9z3o3cj55aokgj9u8geb6u4nzwjo97pyutwsspx3obtuoyt4osp9mye">boost our project donating with Nano</a> or help with translations in the documentation.
 
 </details>
 <details>
