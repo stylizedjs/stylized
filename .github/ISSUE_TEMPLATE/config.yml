@@ -8,7 +8,7 @@ contact_links:
   - 
     about: "Start a discussion in the GitHub Discussions"
     name: "Start a new discussion"
-    url: "https://github.com/stylizedcss/stylized/discussions/new"
+    url: "https://github.com/stylizedjs/stylized/discussions/new"
   - 
     about: "Visit our website and learn more about Stylized"
     name: Website

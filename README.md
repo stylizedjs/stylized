@@ -7,12 +7,12 @@
 </div>
 
 <p align="center">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/stylizedcss/stylized?color=992dd9&style=flat-square">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/stylizedjs/stylized?color=992dd9&style=flat-square">
   <img alt="Donate using NANO" src="https://img.shields.io/badge/sponsor-nano-%234060e0?style=flat-square">
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/stylizedcss/stylized?color=63ad60&style=flat-square">
-  <img alt="GitHub" src="https://img.shields.io/github/license/stylizedcss/stylized?color=ffc95c&style=flat-square">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/stylizedcss/stylized?color=fb942f&label=size&style=flat-square">
-  <img alt="GitHub main language repository" src="https://img.shields.io/github/languages/top/stylizedcss/stylized?color=f03616&style=flat-square">
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/stylizedjs/stylized?color=63ad60&style=flat-square">
+  <img alt="GitHub" src="https://img.shields.io/github/license/stylizedjs/stylized?color=ffc95c&style=flat-square">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/stylizedjs/stylized?color=fb942f&label=size&style=flat-square">
+  <img alt="GitHub main language repository" src="https://img.shields.io/github/languages/top/stylizedjs/stylized?color=f03616&style=flat-square">
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
   ·
   <a href="#🚀-installation">Installation</a>
   ·
-  <a href="https://github.com/stylizedcss/stylized/graphs/contributors">Stylizers</a>
+  <a href="https://github.com/stylizedjs/stylized/graphs/contributors">Stylizers</a>
 </p>
 
 <p align="center">
@@ -56,7 +56,7 @@
 
 ## 📦 Installation
 ```bash
-npm install stylizedcss
+npm install stylizedjs
 ```
 
 ## 🔨 Usage
@@ -116,7 +116,7 @@ npm install stylizedcss
 <details>
   <summary> How to request the creation of a new component?</summary>
   
-  It's possible to open an issue using the label <a href="https://github.com/stylizedcss/stylized/labels/enhancement">enhancement</a>. Enter as much information as possible and, if possible, give examples.
+  It's possible to open an issue using the label <a href="https://github.com/stylizedjs/stylized/labels/enhancement">enhancement</a>. Enter as much information as possible and, if possible, give examples.
 </details>
 
 ## 📝 License

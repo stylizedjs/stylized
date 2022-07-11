@@ -1,5 +1,5 @@
 {
-  "name": "stylizedcss",
+  "name": "stylizedjs",
   "version": "1.0.0",
   "description": "The ultimate solution to powerful designs",
   "main": "stylized.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stylizedcss/stylized.git"
+    "url": "git+https://github.com/stylizedjs/stylized.git"
   },
   "keywords": [
     "css",
@@ -32,7 +32,7 @@
   "author": "Gabriel Marinho",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stylizedcss/stylized/issues"
+    "url": "https://github.com/stylizedjs/stylized/issues"
   },
   "homepage": "https://stylized.dev",
   "directories": {

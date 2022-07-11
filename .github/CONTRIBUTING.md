@@ -1,5 +1,5 @@
 # How to contribute?
-This is a completely free project that accepts contributions via pull requests on GitHub. This document is responsible for aligning contributions in accordance with the standards set forth therein. If in doubt, [open an issue](https://github.com/stylizedcss/stylized/issues/new/choose).
+This is a completely free project that accepts contributions via pull requests on GitHub. This document is responsible for aligning contributions in accordance with the standards set forth therein. If in doubt, [open an issue](https://github.com/stylizedjs/stylized/issues/new/choose).
 
 ## First steps
 1. Fork this repository
