@@ -74,40 +74,7 @@ Stylized was created to offer a lightweight, beautiful and simple-to-use UI libr
 
 </details>
 <details>
-  <summary> How Stylized behaves in old browsers?</summary>
-  <table>
-    <tr>
-      <th>
-        <img src="./.github/media/browsers/chrome.svg" alt="Chrome logo">
-      </th>
-      <th>
-        <img src="./.github/media/browsers/edge.svg" alt="Edge logo">
-      </th>
-      <th>
-        <img src="./.github/media/browsers/firefox.svg" alt="Firefox logo">    
-      </th>
-      <th>
-        <img src="./.github/media/browsers/safari.svg" alt="Safari logo">
-      </th>
-      <th>
-        <img src="./.github/media/browsers/opera.svg" alt="Opera logo">    
-      </th>
-      <th>
-        <img src="./.github/media/browsers/ie.svg" alt="Internet Explorer logo">    
-      </th>
-    </tr>
-    <tr>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>NFW</td>
-    </tr>
-  </table>
-</details>
-<details>
-  <summary> I don't know how to code in CSS. Is there any other way to contribute?</summary>
+  <summary> How Stylized behave
 
 Yes! There are a lot of ways to contribute with Stylized. You can **star** the repository, share it with friends, <a href="https://mynano.link/nano_1juij9z3o3cj55aokgj9u8geb6u4nzwjo97pyutwsspx3obtuoyt4osp9mye">boost our project donating by with Nano</a> or help with translations in the documentation.
 
