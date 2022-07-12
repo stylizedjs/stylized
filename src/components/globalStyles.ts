@@ -1,4 +1,5 @@
 import { css } from "lit";
+
 import { globalColors } from "./globalColors";
 
 export const globalStyles = [

@@ -1,7 +1,7 @@
 import { css, html, LitElement } from "lit";
 import { customElement, property } from 'lit/decorators.js';
 
-import { globalStyles } from "@components/globalStyles";
+import { globalStyles } from "../globalStyles";
 
 export enum ButtonVariants {
     PRIMARY = 'primary',
