@@ -1,10 +1,10 @@
-import { css } from "lit";
+import { css } from 'lit';
 
-import { globalColors } from "./globalColors";
+import { defaultColors } from './default-colors';
 
 export const globalStyles = [
-    globalColors,
-    css`
+  defaultColors,
+  css`
     @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap");
 
     html {
@@ -61,19 +61,19 @@ export const globalStyles = [
     }
 
     pre {
-        background-color: var(--nero-color);
-        color: var(--white-color);
+        background-color: var(--_nero-color);
+        color: var(--_white-color);
         display: inline-block;
         padding: 15px 20px;
         border-radius: 6px;
     }
 
     input[type='checkbox']:checked + .slider {
-        background-color: var(--primary-color);
+        background-color: var(--_primary-color);
     }
 
     input[type='checkbox']:focus + .slider {
-        box-shadow: 0 0 1px var(--primary-color);
+        box-shadow: 0 0 1px var(--_primary-color);
     }
 
     input[type='checkbox']:checked + .slider:before {
@@ -109,5 +109,5 @@ export const globalStyles = [
     p {
         line-height: 26.15px;
     }
-    `
+    `,
 ];

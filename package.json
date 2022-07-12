@@ -8,7 +8,7 @@
     "build": "tsc",
     "build:watch": "tsc --watch",
     "lint": "eslint \"**/*.{js,ts}\"",
-    "serve": "wds --watch",
+    "serve": "wds --watch --node-resolve",
     "serve:prod": "MODE=prod npm run serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

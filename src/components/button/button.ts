@@ -1,21 +1,21 @@
-import { css, html, LitElement } from "lit";
+import { css, html, LitElement } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 
-import { globalStyles } from "../globalStyles";
+import { globalStyles } from '../globalStyles';
 
 export enum ButtonVariants {
-    PRIMARY = 'primary',
-    BASIC = 'basic',
+  PRIMARY = 'primary',
+  BASIC = 'basic',
 }
 
 @customElement('stlzd-button')
 export class StlzdButton extends LitElement {
-    static styles = [
-        globalStyles,
-        css`
-            :host {
-                background-color: var(--primary-color);
-                color: var(--white-color);
+  static styles = [
+    globalStyles,
+    css`
+            button {
+                background-color: var(--_primary-color);
+                color: var(--_white-color);
                 border-radius: 4px;
                 font-family: "Inter", sans-serif;
                 font-size: 15px;
@@ -26,39 +26,39 @@ export class StlzdButton extends LitElement {
                 transition: all 0.4s ease;
             }
 
-            :host:hover {
-                background-color: var(--primary-hovered-color);
+            button:hover {
+                background-color: var(--_primary-hovered-color);
             }
 
-            :host:active {
-                background-color: var(--primary-active-color);
+            button:active {
+                background-color: var(--_primary-active-color);
             }
 
-            :host([type="basic"]) {
+            button([type="basic"]) {
                 background-color: transparent;
-                color: var(--primary-color);
+                color: var(--_primary-color);
             }
 
-            :host([type="basic"]:hover) {
-                background-color: var(--lavender-blue-transparent-color);
+            button([type="basic"]:hover) {
+                background-color: var(--_lavender-blue-transparent-color);
             }
 
-            :host([type="basic"]:active) {
-                background-color: var(--lavender-blue-transparent-color);
+            button([type="basic"]:active) {
+                background-color: var(--_lavender-blue-transparent-color);
             }
-        `
-    ];
+        `,
+  ];
 
-    @property()
-    type?: ButtonVariants = ButtonVariants.PRIMARY;
+  @property()
+  type?: ButtonVariants = ButtonVariants.PRIMARY;
 
-    render() {
-        return html`<button></button>`;
-    }
+  render() {
+    return html`<button><slot></slot></button>`;
+  }
 }
 
 declare global {
-    interface HTMLElementTagNameMap {
-        "stlzd-button": StlzdButton;
-    }
+  interface HTMLElementTagNameMap {
+    'stlzd-button': StlzdButton;
+  }
 }
