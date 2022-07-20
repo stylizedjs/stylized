@@ -2,14 +2,13 @@
   "name": "stylizedjs",
   "version": "1.0.0",
   "description": "The ultimate solution to powerful designs",
-  "main": "stylized.js",
-  "module": "stylized.js",
   "type": "module",
   "scripts": {
+    "dev": "npm run build & npm run serve",
     "build": "tsc",
     "build:watch": "tsc --watch",
     "lint": "eslint \"**/*.{js,ts}\"",
-    "serve": "wds --watch",
+    "serve": "wds --watch --node-resolve",
     "serve:prod": "MODE=prod npm run serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

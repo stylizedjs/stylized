@@ -1,7 +1,7 @@
 import { css, html, LitElement } from "lit";
-
-import { globalStyles } from "@components/globalStyles";
 import { customElement, property } from "lit/decorators";
+
+import { globalStyles } from "../globalStyles";
 
 export enum AlertVariants {
     INFO = 'info',

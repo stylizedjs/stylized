@@ -1,7 +1,7 @@
 import { css, html, LitElement } from "lit";
 import { customElement, property } from "lit/decorators";
 
-import { globalStyles } from "@components/globalStyles";
+import { globalStyles } from "../globalStyles";
 
 @customElement('stlzd-line-copy')
 export class StlzdLineCopy extends LitElement {
