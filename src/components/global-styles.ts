@@ -1,12 +1,12 @@
 import { css } from 'lit';
 
 import { defaultColors } from './default-colors';
+import { globalRules } from './global-rules';
 
 export const globalStyles = [
   defaultColors,
+  globalRules,
   css`
-    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap");
-
     html {
         box-sizing: border-box;
         font-size: 16px;
@@ -16,6 +16,7 @@ export const globalStyles = [
     *:before,
     *:after {
         box-sizing: inherit;
+        font-family: 'Roboto', sans-serif;
     }
 
     body {
@@ -38,7 +39,6 @@ export const globalStyles = [
         margin: 0;
         padding: 0;
         font-weight: normal;
-        font-family: "Inter", sans-serif;
     }
 
     h1,
@@ -108,6 +108,16 @@ export const globalStyles = [
 
     p {
         line-height: 26.15px;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aligned {
+        display: flex;
+        flex-direction: row;
     }
     `,
 ];

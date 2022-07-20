@@ -1,7 +1,7 @@
 import { css, html, LitElement } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 
-import { globalStyles } from '../globalStyles';
+import { globalStyles } from '../global-styles';
 
 export enum ButtonVariants {
   PRIMARY = 'primary',
@@ -34,23 +34,23 @@ export class StlzdButton extends LitElement {
                 background-color: var(--_primary-active-color);
             }
 
-            button([type="basic"]) {
+            :host([type="basic"]) button {
                 background-color: transparent;
                 color: var(--_primary-color);
             }
 
-            button([type="basic"]:hover) {
+            :host([type="basic"]:hover) button {
                 background-color: var(--_lavender-blue-transparent-color);
             }
 
-            button([type="basic"]:active) {
+            :host([type="basic"]:active) button {
                 background-color: var(--_lavender-blue-transparent-color);
             }
         `,
   ];
 
   @property()
-  type?: ButtonVariants = ButtonVariants.PRIMARY;
+  type?: ButtonVariants;
 
   render() {
     return html`<button><slot></slot></button>`;

@@ -5,9 +5,24 @@
     <title>Demo components</title>
     <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
     <script src="../node_modules/lit/polyfill-support.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <stlzd-button type="basic">Click here</stlzd-button>
+  <body style="display: flex; flex-direction: column;">
+    <stlzd-button>Primary button</stlzd-button>
+    <stlzd-button type="basic">Basic button</stlzd-button>
+
+    <stlzd-command-line>npm install stylizedjs</stlzd-command-line>
+
+    <stlzd-alert>Just for your information</stlzd-alert>
+    <stlzd-alert type="success">Something worked perfectly as expected</stlzd-alert>
+    <stlzd-alert type="warning">Warning! This is the first warning</stlzd-alert>
+    <stlzd-alert type="error">Something broke or not working</stlzd-alert>
+
     <script type="module" src="./dist/components/button/button.js"></script>
+    <script type="module" src="./dist/components/command-line/command-line.js"></script>
+    <script type="module" src="./dist/components/alert/alert.js"></script>
   </body>
 </html>

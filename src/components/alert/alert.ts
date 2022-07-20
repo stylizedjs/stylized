@@ -1,7 +1,7 @@
 import { css, html, LitElement } from "lit";
-import { customElement, property } from "lit/decorators";
+import { customElement, property } from "lit/decorators.js";
 
-import { globalStyles } from "../globalStyles";
+import { globalStyles } from "../global-styles";
 
 export enum AlertVariants {
     INFO = 'info',
@@ -15,51 +15,49 @@ export class StlzdAlert extends LitElement {
     static styles = [
         globalStyles,
         css`
-            :host {
+            .alert-box {
                 display: inline-block;
                 padding: 10px 20px;
-                background-color: var(--alert-standard-bg-color);
-                color: var(--primary-color);
-                border: 1px solid var(--alert-border-bg-color);
+                background-color: var(--_alert-standard-bg-color);
+                color: var(--_primary-color);
+                border: 1px solid var(--_alert-border-bg-color);
                 border-radius: 6px;
             }
 
-            :host([type="success"]) {
+            :host([type="success"]) .alert-box {
                 display: inline-block;
                 padding: 10px 20px;
-                background-color: var(--alert-success-bg-color);
-                color: var(--alert-success-text);
-                border: 1px solid var(--alert-success-border-color);
+                background-color: var(--_alert-success-bg-color);
+                color: var(--_alert-success-text);
+                border: 1px solid var(--_alert-success-border-color);
                 border-radius: 6px;
             }
 
-            :host([type="error"]) {
+            :host([type="error"]) .alert-box {
                 display: inline-block;
                 padding: 10px 20px;
-                background-color: var(--alert-danger-bg-color);
-                color: var(--alert-danger-text);
-                border: 1px solid var(--alert-danger-border-color);
+                background-color: var(--_alert-danger-bg-color);
+                color: var(--_alert-danger-text);
+                border: 1px solid var(--_alert-danger-border-color);
                 border-radius: 6px;
             }
 
-            :host([type="warning"]) {
+            :host([type="warning"]) .alert-box {
                 display: inline-block;
                 padding: 10px 20px;
-                background-color: var(--alert-warning-bg-color);
-                color: var(--alert-warning-text-color);
-                border: 1px solid var(--alert-warning-border-color);
+                background-color: var(--_alert-warning-bg-color);
+                color: var(--_alert-warning-text-color);
+                border: 1px solid var(--_alert-warning-border-color);
                 border-radius: 6px;
             }
         `
     ];
 
     @property()
-    type?: AlertVariants = AlertVariants.INFO;
+    type: AlertVariants;
 
     render() {
-        return html`
-            <div class="">
-            </div>`;
+        return html`<div class="alert-box"><slot></slot></div>`;
     }
 }
 
