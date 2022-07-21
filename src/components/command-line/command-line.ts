@@ -43,7 +43,7 @@ export class StlzdCommandLine extends LitElement {
     ];
 
     @property()
-    command: string = "Nothing inserted to copy.";
+    command?: string = "Nothing inserted to copy.";
 
     render() {
         return html`
