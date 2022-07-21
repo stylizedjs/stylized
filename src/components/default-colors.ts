@@ -16,6 +16,8 @@ export const defaultColors = css`
         --_white-color: var(--white-color, #fff);
         --_black-color: var(--black-color, #000);
 
+        --_command-line-background-color: var(--command-line-background-color, #f1f1f1);
+
         --_alert-standard-bg-color: var(--alert-standard-bg-color, #d3e5ff);
         --_alert-border-bg-color: var(--alert-border-bg-color, #79aeff);
         --_alert-success-bg-color: var(--alert-success-bg-color, #dffddd);
