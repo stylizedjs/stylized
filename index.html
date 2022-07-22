@@ -10,7 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   </head>
-  <body style="display: flex; flex-direction: column;">
+  <body style="margin: 0; display: flex; flex-direction: column; align-items: center;">
+
+
     <stlzd-button>Primary button</stlzd-button>
     <stlzd-button type="basic">Basic button</stlzd-button>
     <stlzd-button disabled>Disabled button</stlzd-button>
@@ -22,8 +24,13 @@
     <stlzd-alert type="warning">Warning! This is the first warning</stlzd-alert>
     <stlzd-alert type="error">Something broke or not working</stlzd-alert>
 
+    <stlzd-input type="text" placeholder="Enter your fullname"></stlzd-input>
+    <stlzd-input type="password" placeholder="Enter your password"></stlzd-input>
+    <stlzd-input></stlzd-input>
+
     <script type="module" src="./dist/components/button/button.js"></script>
     <script type="module" src="./dist/components/command-line/command-line.js"></script>
     <script type="module" src="./dist/components/alert/alert.js"></script>
+    <script type="module" src="./dist/components/input/input.js"></script>
   </body>
 </html>
