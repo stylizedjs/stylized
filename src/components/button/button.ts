@@ -46,6 +46,11 @@ export class StlzdButton extends LitElement {
             :host([type="basic"]:active) button {
                 background-color: var(--_lavender-blue-transparent-color);
             }
+
+            :host([disabled]) button {
+              background-color: var(--_disabled-color);
+                cursor: default;
+            }
         `,
   ];
 

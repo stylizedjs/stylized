@@ -3,6 +3,7 @@ import { css } from 'lit';
 export const defaultColors = css`
     :host {
         --_primary-color: var(--primary-color, #005be4);
+        --_disabled-color: var(--disabled-color, #cacaca);
         --_primary-hovered-color: var(--primary-hovered-color, #0050c9);
         --_primary-active-color: var(--primary-active-color, #0044aa);
 
