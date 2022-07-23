@@ -74,37 +74,31 @@ Stylized was created to offer a lightweight, beautiful and simple-to-use UI libr
 
 </details>
 <details>
-  <summary> How Stylized behaves in old browsers?</summary>
+  <summary> How compatible is Stylized with browsers?</summary>
   <table>
-    <tr>
-      <th>
-        <img src="./.github/media/browsers/chrome.svg" alt="Chrome logo">
-      </th>
-      <th>
-        <img src="./.github/media/browsers/edge.svg" alt="Edge logo">
-      </th>
-      <th>
-        <img src="./.github/media/browsers/firefox.svg" alt="Firefox logo">      
-      </th>
-      <th>
-        <img src="./.github/media/browsers/safari.svg" alt="Safari logo">
-      </th>
-      <th>
-        <img src="./.github/media/browsers/opera.svg" alt="Opera logo">      
-      </th>
-      <th>
-        <img src="./.github/media/browsers/ie.svg" alt="Internet Explorer logo">      
-      </th>
-    </tr>
-    <tr>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>NFW</td>
-    </tr>
-  </table>
+  <tr>
+    <th>
+      <img src="./.github/media/browsers/chrome.svg" alt="Chrome logo">
+    </th>
+    <th>
+      <img src="./.github/media/browsers/edge.svg" alt="Edge logo">
+    </th>
+    <th>
+      <img src="./.github/media/browsers/firefox.svg" alt="Firefox logo">      
+    </th>
+    <th>
+      <img src="./.github/media/browsers/opera.svg" alt="Opera logo">      
+    </th>
+  </tr>
+  <tr>
+    <td>67+ ✅</td>
+    <td>79+ ✅</td>
+    <td>63+ ✅</td>
+    <td>64+ ✅</td>
+  </tr>
+</table>
+
+Browser compatibility is based on support for web components. You can get more information about web components [here](https://developer.mozilla.org/en-US/docs/Web/Web_Components#browser_compatibility) and [here](https://caniuse.com/?search=web%20components).
 </details>
 <details>
   <summary> I don't know how to code in CSS. Is there any other way to contribute?</summary>
