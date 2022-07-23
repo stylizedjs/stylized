@@ -11,7 +11,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   </head>
   <body style="margin: 0; display: flex; flex-direction: column; align-items: center;">
+    <stlzd-header>
+      <div>
+        <p>Stylized</p>
+      </div>
 
+      <div>
+        <stlzd-button type="basic">Login</stlzd-button>
+        <stlzd-button>Create account</stlzd-button>
+      </div>
+    </stlzd-header>
 
     <stlzd-button>Primary button</stlzd-button>
     <stlzd-button type="basic">Basic button</stlzd-button>
@@ -28,6 +37,7 @@
     <stlzd-input type="password" placeholder="Enter your password"></stlzd-input>
     <stlzd-input></stlzd-input>
 
+    <script type="module" src="./dist/components/header/header.js"></script>
     <script type="module" src="./dist/components/button/button.js"></script>
     <script type="module" src="./dist/components/command-line/command-line.js"></script>
     <script type="module" src="./dist/components/alert/alert.js"></script>
