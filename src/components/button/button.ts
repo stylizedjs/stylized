@@ -34,16 +34,16 @@ export class StlzdButton extends LitElement {
         background-color: var(--_primary-active-color);
       }
 
-      :host([type="basic"]) button {
+      :host([variant="basic"]) button {
         background-color: transparent;
         color: var(--_primary-color);
       }
 
-      :host([type="basic"]:hover) button {
+      :host([variant="basic"]:hover) button {
         background-color: var(--_lavender-blue-transparent-color);
       }
 
-      :host([type="basic"]:active) button {
+      :host([variant="basic"]:active) button {
         background-color: var(--_lavender-blue-transparent-color);
       }
 
@@ -55,7 +55,7 @@ export class StlzdButton extends LitElement {
   ];
 
   @property()
-  type?: ButtonVariants;
+  variant?: ButtonVariants;
 
   render() {
     return html`<button><slot></slot></button>`;
