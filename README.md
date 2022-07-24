@@ -62,6 +62,21 @@ npm install stylizedjs
 ```
 
 ## 🔨 Usage
+If you're using just HTML and JavaScript raw, you can build the components with the following command:
+
+```bash
+npm run build
+```
+
+And then, just import into the HTML file each component you need as the example below:
+
+```html
+<script type="module" src="./dist/components/command-line/command-line.js"></script>
+<script type="module" src="./dist/components/header/header.js"></script>
+<script type="module" src="./dist/components/button/button.js"></script>
+<script type="module" src="./dist/components/alert/alert.js"></script>
+<script type="module" src="./dist/components/input/input.js"></script>
+```
 
 ## 🤝 Contributing
 
