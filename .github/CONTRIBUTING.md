@@ -10,7 +10,7 @@ This is a completely free project that accepts contributions via pull requests o
 ## Commit styles
 This project follows the pattern below of commits to keep the organization:
 
-`<type>: imperative message`
+`<type>(#issue-number): imperative message`
 ### Commit types
 - **fix** - You fixed an error
 - **feat** - You worked on a new feature/enhancement
