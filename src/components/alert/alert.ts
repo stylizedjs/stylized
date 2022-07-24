@@ -34,19 +34,19 @@ export class StlzdAlert extends LitElement {
                 border-radius: 6px;
             }
 
-            :host([type="success"]) .alert-box {
+            :host([variant="success"]) .alert-box {
                 background-color: var(--_alert-success-bg-color);
                 color: var(--_alert-success-text);
                 border: 1px solid var(--_alert-success-border-color);
             }
 
-            :host([type="error"]) .alert-box {
+            :host([variant="error"]) .alert-box {
                 background-color: var(--_alert-danger-bg-color);
                 color: var(--_alert-danger-text);
                 border: 1px solid var(--_alert-danger-border-color);
             }
 
-            :host([type="warning"]) .alert-box {
+            :host([variant="warning"]) .alert-box {
                 background-color: var(--_alert-warning-bg-color);
                 color: var(--_alert-warning-text-color);
                 border: 1px solid var(--_alert-warning-border-color);
@@ -59,10 +59,10 @@ export class StlzdAlert extends LitElement {
     ];
 
     @property()
-    type?: AlertVariants = AlertVariants.INFO;
+    variant?: AlertVariants = AlertVariants.INFO;
 
     iconTemplate() {
-        switch(this.type) {
+        switch(this.variant) {
           case AlertVariants.INFO: return infoIcon;
           case AlertVariants.ERROR: return errorIcon;
           case AlertVariants.SUCCESS: return successIcon;
