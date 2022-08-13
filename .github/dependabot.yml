@@ -5,5 +5,5 @@ updates:
     schedule:
       interval: "daily"
     commit-message:
-          prefix: "fix(security):"
+          prefix: "fix"
           include: "scope"
