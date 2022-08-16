@@ -83,12 +83,6 @@ And then, just import into the HTML file each component you need as the example 
 ## ❔ FAQ
 
 <details>
-  <summary> Why another UI library?</summary>
-
-Stylized was created to offer a lightweight, beautiful and simple-to-use UI library.
-
-</details>
-<details>
   <summary> How compatible is Stylized with browsers?</summary>
   <table>
   <tr>
