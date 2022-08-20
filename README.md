@@ -8,7 +8,7 @@
 
 <p align="center">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/stylizedjs/stylized?color=992dd9&style=flat-square">
-  <img alt="Donate using NANO" src="https://img.shields.io/badge/sponsor-nano-%234060e0?style=flat-square">
+  
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/stylizedjs/stylized?color=63ad60&style=flat-square">
   <img alt="GitHub" src="https://img.shields.io/github/license/stylizedjs/stylized?color=ffc95c&style=flat-square">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/stylizedjs/stylized?color=fb942f&label=size&style=flat-square">
@@ -43,7 +43,7 @@
 
 ## ✨ Features
 
-- ▶️ Easy start — just download, import and start using
+- ▶️ Easy start — just install, import and start using
 - 🎨 Easy customization and adaptation for your project
 - 🤝 High compatibility with libraries and frameworks
 - 📦 Complete package of Stylized components
@@ -79,9 +79,14 @@ And then, just import into the HTML file each component you need as the example 
 ```
 
 ## 🤝 Contributing
+This is an open source project which accepts contributions for anyone. Feel free to contribute after reading our [contribution guideline](./.github/CONTRIBUTING.md).
 
 ## ❔ FAQ
 
+<details>
+  <summary>What is Stylized?</summary>
+Stylized is an UI library created with [Lit](https://lit.dev/), a framework created and maintained by Google. Stylized comes with dozens of components for JavaScript and TypeScript applications.
+</details>
 <details>
   <summary> How compatible is Stylized with browsers?</summary>
   <table>
@@ -110,15 +115,9 @@ And then, just import into the HTML file each component you need as the example 
 Browser compatibility is based on support for web components. You can get more information about web components [here](https://developer.mozilla.org/en-US/docs/Web/Web_Components#browser_compatibility) and [here](https://caniuse.com/?search=web%20components).
 </details>
 <details>
-  <summary> I don't know how to code in CSS. Is there any other way to contribute?</summary>
+  <summary> I don't know how to code. Is there any other way to contribute?</summary>
 
-Yes! There are a lot of ways to contribute with Stylized. You can **star** the repository, share it with friends, <a href="https://mynano.link/nano_1juij9z3o3cj55aokgj9u8geb6u4nzwjo97pyutwsspx3obtuoyt4osp9mye">boost our project donating by with Nano</a> or help with translations in the documentation.
-
-</details>
-<details>
-  <summary> Can I use it in a project of my company?</summary>
-
-Yes, you can. However, there is no responsibility or warranty on the part of the collaborators of the project. If you need more information about it, [read the license](./LICENSE).
+Yes! There are a lot of ways to contribute with Stylized. You can **star** the repository, share with your friends, contribute with ``no code`` issues or just help with translations in the documentation.
 
 </details>
 <details>
