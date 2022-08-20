@@ -8,7 +8,6 @@
 
 <p align="center">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/stylizedjs/stylized?color=992dd9&style=flat-square">
-  
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/stylizedjs/stylized?color=63ad60&style=flat-square">
   <img alt="GitHub" src="https://img.shields.io/github/license/stylizedjs/stylized?color=ffc95c&style=flat-square">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/stylizedjs/stylized?color=fb942f&label=size&style=flat-square">
@@ -132,5 +131,3 @@ It's possible to open an issue using the label <a href="https://github.com/styli
 
 This project is licensed under the
 [MIT license](./LICENSE)
-
-✨ Designed by Gabriel Marinho. [Follow me on GitHub!](https://github.com/gdcmarinho)
