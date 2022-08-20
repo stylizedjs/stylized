@@ -7,7 +7,6 @@ export enum InputVariants {
     TEXT = "text",
     DATE = "date",
     PASSWORD = "password",
-    TEXTAREA = "textarea",
 }
 
 @customElement('stlzd-input')
