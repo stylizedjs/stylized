@@ -36,7 +36,7 @@ export class StlzdInput extends LitElement {
                 box-shadow: inset #b6b6b6 0 0 0 1px,inset white 0 0 0 100px;
             }
 
-            input:active {
+            input:focus {
                 box-shadow: inset var(--_primary-color) 0 0 0 1px,inset white 0 0 0 100px;
             }
         `
