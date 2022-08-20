@@ -48,9 +48,6 @@ export class StlzdInput extends LitElement {
     @property()
     placeholder: string = "";
 
-    @property()
-    readonly: boolean = false;
-
     render() {
         return html`
             <input type="${this.type}" placeholder="${this.placeholder}"></input>
