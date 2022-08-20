@@ -85,6 +85,7 @@ This is an open source project which accepts contributions for anyone. Feel free
 
 <details>
   <summary>What is Stylized?</summary>
+  
 Stylized is an UI library created with [Lit](https://lit.dev/), a framework created and maintained by Google. Stylized comes with dozens of components for JavaScript and TypeScript applications.
 </details>
 <details>
