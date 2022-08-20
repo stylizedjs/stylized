@@ -4,7 +4,7 @@
   "description": "The ultimate solution to powerful designs",
   "type": "module",
   "scripts": {
-    "dev": "npm run build & npm run serve",
+    "demo": "npm run build & npm run serve",
     "build": "tsc",
     "build:watch": "tsc --watch",
     "lint": "eslint \"**/*.{js,ts}\"",
