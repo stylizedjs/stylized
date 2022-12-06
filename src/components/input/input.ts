@@ -38,6 +38,21 @@ export class StlzdInput extends LitElement {
             input:focus {
                 box-shadow: inset var(--_primary-color) 0 0 0 1px,inset white 0 0 0 100px;
             }
+
+            input[type=date] {
+                color: #757575;
+            }
+
+            input[type=date]::-webkit-calendar-picker-indicator {
+                opacity: 0.4;
+                cursor: pointer;
+                transition: .1s;
+            }
+
+            input[type=date]::-webkit-calendar-picker-indicator:hover {
+                opacity: 0.6;
+                cursor: pointer;
+            }
         `
     ];
 
