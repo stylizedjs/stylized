@@ -39,7 +39,7 @@
     "doc": "docs"
   },
   "dependencies": {
-    "lit": "^2.2.7"
+    "lit": "^2.8.0"
   },
   "devDependencies": {
     "@web/dev-server": "^0.3.0",
